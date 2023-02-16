@@ -1,0 +1,3 @@
+- name: 'gcr.io/cloud-builders/gcloud'
+  entrypoint: 'bash'
+  args: ['-c','gcloud compute instances create hari --zone='us-centaral1-a'']
